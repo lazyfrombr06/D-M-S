@@ -1,0 +1,83 @@
+.login-page-component{
+    min-height: 78vh;
+}
+
+.signup-button-container{
+    margin: 4% 0;
+    color: white;
+}
+.signup-button-container li{
+list-style: none;
+margin: 1% 0;
+}
+
+.input-box-password{
+    display: inline;
+}
+
+.input-box-container-for-password {
+    display: flex;
+    justify-content: center;
+    width: 101%;
+    margin: auto;
+}
+.show-hide-button {
+    background: none;
+    outline: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    position: relative;
+    left: -27px;
+    top: 22px;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    transition: all .3s ease;
+}
+.show-hide-button:hover {
+  color:rgb(255, 0, 0);
+  cursor: pointer;
+}
+
+.button-container-for-admin-and-user-login li{
+list-style: none;
+}
+.button-container-for-admin-and-user-login li a{
+display: block;
+float: left;
+}
+
+.signup-button-container ul{
+   display: flex;
+   justify-content: center;
+}
+/* .signup-button-container ul li a{
+  border: 1px solid blue;
+  
+} */
+.signup-button-container ul li a{
+  border: 1px solid #008cff;
+  border-radius: 0px;
+
+}
+.signup-button-container ul li a.active{
+    background-color: #008cff;
+    color: white;
+}
+
+.not-a-user{
+  color: black;
+  font-size: 1.2rem;
+}
+.not-a-user a{
+ text-decoration: none;
+ color: rgb(31, 135, 160);
+font-family: fantasy;
+}
+.not-a-user a:hover{
+ text-decoration: none;
+ color: rgb(255, 20, 20);
+font-family: fantasy;
+}

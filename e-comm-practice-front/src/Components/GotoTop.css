@@ -1,0 +1,11 @@
+.button-of-go-to-top{
+color: rgb(0, 145, 255);
+font-size: 2rem;
+z-index: 3433;
+position: fixed;
+top: 84%;
+right: 2%;
+border: none;
+background: none;
+opacity: .5;
+}

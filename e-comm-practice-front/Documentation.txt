@@ -1,0 +1,108 @@
+Document Management System Documentation
+Table of Contents
+
+
+
+Introduction
+1.1 Purpose
+1.2 Scope
+1.3 System Architecture
+Getting Started
+2.1 Prerequisites
+2.2 Installation
+User Guide
+3.1 User Registration
+3.2 User Login
+3.3 User Dashboard
+3.4 Viewing Documents
+3.5 Searching for Documents
+Admin Guide
+4.1 Admin Registration
+4.2 Admin Login
+4.3 Admin Dashboard
+4.4 Uploading Documents
+4.5 Modifying Documents
+4.6 Deleting Documents
+Conclusion
+1. Introduction
+1.1 Purpose
+The Document Management System (DMS) is a web application designed to efficiently manage and organize documents. It allows users to upload text information along with related PDF files. There are two types of users in this system: Admins and Users. Admins can read, write, modify, and delete data, while Users can only read and filter data.
+
+1.2 Scope
+The DMS provides the following features:
+
+Admin Panel with separate logins for different admins.
+Admins can upload, modify, and delete documents they have uploaded.
+Users can view documents and filter them.
+1.3 System Architecture
+The system is built using the MERN (MongoDB, Express.js, React.js, Node.js) stack. MongoDB is used to store data, Express.js serves as the backend API, React.js is used for the frontend, and Node.js powers the server.
+
+2. Getting Started
+2.1 Prerequisites
+Before installing the application, ensure you have the following installed:
+
+Node.js
+MongoDB
+Git
+2.2 Installation
+Follow these steps to install and run the DMS application:
+
+Clone the repository:
+
+bash
+Copy code
+git clone <repository-url>
+Navigate to the project folder:
+
+bash
+Copy code
+cd dms-app
+Install dependencies:
+
+Copy code
+npm install
+Start the server:
+
+sql
+Copy code
+npm start
+Access the application in your web browser at http://localhost:3000.
+
+3. User Guide
+3.1 User Registration
+Users must sign up using a valid email address and password.
+3.2 User Login
+Users can log in using their registered email and password.
+3.3 User Dashboard
+Upon logging in, users will be redirected to their dashboard.
+The dashboard displays a list of documents.
+3.4 Viewing Documents
+Users can click on a document to view its details.
+Documents are categorized and tagged for easy navigation.
+3.5 Searching for Documents
+Users can search for documents using keywords or filters.
+The search feature helps users find specific documents quickly.
+4. Admin Guide
+4.1 Admin Registration
+Admins must sign up using a valid email address and password.
+Admins receive unique login credentials upon registration.
+4.2 Admin Login
+Admins can log in using their registered email and unique password.
+4.3 Admin Dashboard
+Upon logging in, admins will be redirected to their dashboard.
+The dashboard displays a list of documents uploaded by the admin.
+4.4 Uploading Documents
+Admins can upload documents by providing text information and attaching PDF files.
+Uploaded documents are associated with the admin who uploaded them.
+4.5 Modifying Documents
+Admins can modify documents they uploaded earlier.
+Modifications may include updating text information or replacing the PDF file.
+4.6 Deleting Documents
+Admins can delete documents they uploaded.
+Deletion permanently removes the document from the system.
+5. Conclusion
+The Document Management System (DMS) provides an efficient way to manage and organize documents. Admins have full control over data, including the ability to upload, modify, and delete documents. Users can access and search for documents based on their needs. This documentation should guide users and administrators in effectively using the DMS.
+
+For any technical support or further information, please contact the system administrator.
+
+Enjoy using the Document Management System!

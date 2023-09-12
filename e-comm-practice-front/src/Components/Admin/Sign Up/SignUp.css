@@ -1,0 +1,89 @@
+.sign-up-component{
+    background: var(--bgcolor);
+    color: yellow;
+    height: 100vh;
+}
+
+.singup-main-heading{
+    color: var(--fontColor);
+    font-size: 2.8rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5% 0;
+    letter-spacing: 9px;
+
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 25%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+.singup-main-heading:before {
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform-origin: bottom;
+    transform: rotateX(180deg);
+    line-height: 0.96em;
+    background: linear-gradient(0deg, yellow 0,transparent 80%);
+   -webkit-background-clip: text;
+    color: transparent;
+    opacity: .5;
+
+}
+
+.input-box-container-of-signup-page{
+    display: flex;
+    flex-direction: column;
+      align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 30%;
+}
+.input-box-container-of-signup-page input{
+    margin: 1% 0;
+    width: 25%;
+    padding: .5% 0;
+    display: flex;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    /* border-bottom: 1px solid yellow; */
+    color: rgb(0, 0, 0);
+    outline: none; 
+    border-radius: 12px;
+    border-radius: 12px;
+    box-shadow: 0px 2px 2px 0px #484848e0;
+}
+
+.sing-up-button{
+        margin: 1%;
+    padding: 8px 41px;
+    border-radius: 6px;
+    outline: none;
+    /* color: black; */
+    color: #ffffff;
+    background: rgb(41, 157, 5);
+    font-weight: bold;
+    border: none;
+    position: relative;
+    top: 30%;
+    border-radius: 12px;
+    box-shadow: 0px 2px 2px 0px #484848e0;
+    
+}
+.sing-up-button:hover{
+    color: black;
+    background-color: yellow;
+}
+
+.nav-link-in-signUp-page {
+    position: relative;
+    bottom: 4;
+    color: white;
+    bottom: -39%;
+    left: -5%;
+}

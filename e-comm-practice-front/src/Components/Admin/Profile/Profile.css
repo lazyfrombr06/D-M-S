@@ -1,0 +1,139 @@
+.profile-personal-details-container {
+  width: 100%;
+}
+.profile-personal-details-container {
+  width: 60%;
+  margin: auto;
+  /* background-color: rgba(227, 227, 227, 0.077); */
+  padding: 1% 2%;
+  backdrop-filter: blur(10px);
+  color: var(--fontColor);
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.5px);
+  -webkit-backdrop-filter: blur(3.5px);
+}
+.personal-detail-each-container{
+  display: flex;
+  margin: 2% 0;
+  background-color:  rgba(227, 227, 227, 0.061);
+  background: none;
+  border-bottom: 1px solid rgb(48 180 251 / 26%);;
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 4px 0;
+}
+.personal-detail-each-container span{
+ color: rgb(0, 0, 0);
+ width: 5%;
+}
+.personal-details-key{
+  width: 30%;
+  letter-spacing: 4px;
+  text-align: justify;
+  padding: 1px 8px;
+}
+.personal-details-value{
+  letter-spacing: 2px;
+  width: 65%;
+  text-align: justify;
+}
+.edit-profile-btn-toggle {
+  color: white;
+  background: #004e8f;
+  padding: 8px 17px;
+  border: 1px solid #616161;
+  margin: 1% auto;
+  font-weight: bold;
+transition: all .3s ease;
+}
+.edit-profile-btn-toggle:hover {
+ 
+  transform: scale(1.2);
+}
+
+
+
+.edit-profile-input-container{
+  width: 50%;
+  margin: 3% auto;
+  display: flex;
+  flex-direction: column;
+  padding: 1.4% 0;
+  background: rgba(255, 255, 255, 0.05);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(3.5px);
+-webkit-backdrop-filter: blur(3.5px);
+}
+
+.edit-profile-input-each-container{
+  margin: 1.8% auto;
+  text-align: start;
+  display: flex;
+  width: 95%;  
+}
+.edit-profile-input-each-container label{
+ font-size: 1.3rem;
+ color: rgb(0, 0, 0);
+ width: 30%;
+ text-align: start;
+}
+.edit-profile-input-each-container span{
+ font-size: 1.3rem;
+ color: rgb(0, 0, 0);
+ width: 05%;
+ text-align: start;
+}
+.edit-profile-input-each-container input{
+ background: none;
+ border: none;
+ outline: none;
+ border-bottom: 1px solid rgb(0, 0, 0);
+ color: rgb(0, 0, 0);
+ margin: 0 2%;
+ font-size: 1.1rem;
+ padding: 0 2%;
+ width: 65%;
+ text-align: start;
+}
+
+.user-profile-picture-container{
+ 
+  margin: 1% auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-profile-picture-container img{
+  width:150px;
+  height: 150px;
+  border: 2px solid black;
+  margin: 1% auto;
+}
+
+.user-profile-picture-container input{
+  width: 25%;
+  border: 1px solid black;
+ 
+}
+
+.company-details-on-prrofile-page{
+  background-color: rgb(48 180 251 / 26%);
+  padding: 3px 0;
+  margin: 2% 0;
+  margin-bottom: 3%;
+  
+}
+.company-details-on-prrofile-page span{
+  background-color:white;
+  padding: 3px 9px;
+  border-radius: 50px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+

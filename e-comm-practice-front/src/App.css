@@ -1,0 +1,30 @@
+:root {
+  /* --bgcolor: url('../image/bg.svg') no-repeat center center/cover; */
+  
+  --fontColor: #000000;
+}
+
+.App {
+  text-align: center;
+  background: var(--bgcolor);
+}
+.qr-code-img-container{
+  width: 30%;
+  margin:0 auto;
+
+}
+.qr-code-img-container img{
+  width: 40%;
+
+}
+
+.chooseIdentity-hide{
+  display: none;
+}
+.chooseIdentity-show{
+  display: initial;
+}
+
+.go-to-top-comp{
+  color: red;
+}
